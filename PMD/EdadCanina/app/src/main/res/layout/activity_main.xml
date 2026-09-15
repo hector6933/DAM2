@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hola otra vez"-->
+<!--        android:textSize="25sp"-->
+
+<!--        />-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hola DAM2"-->
+<!--        android:textSize="25sp"-->
+
+<!--        />-->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/perro"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:id="@+id/texto_pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="¿Qué edad tienes?"
+        android:textColor="@color/Rojado"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="24dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:ems="10"
+        android:hint="Introduce tu edad"
+        android:gravity="center"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/boton_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24sp"
+        android:layout_marginVertical="14dp"
+        android:text="Calcular"
+        android:backgroundTint="@color/Rojado"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/texto_respuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Si fueras un perro tendrías 47 años"
+        android:textColor="@color/Rojado"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="24dp"
+
+        />
+</LinearLayout>

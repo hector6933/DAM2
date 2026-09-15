@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio4</title>
+    <script>
+        const num1 = 33
+        const num2 = 67
+
+        let salir;
+
+        do {
+            salir = true
+
+            const operacion = prompt("¿Qué operación quieres hacer? (sumar,restar,multiplicar)")
+
+            switch (operacion) {
+
+                case 'sumar':
+                    alert(`${num1} + ${num2} = ${num1 + num2}`)
+                    break
+                case 'restar':
+                    alert(`${num1} - ${num2} = ${num1 - num2}`)
+                    break
+                case 'multiplicar':
+                    alert(`${num1} * ${num2} = ${num1 * num2}`)
+                    break
+                default:
+                    alert('¡Opción inválida!')
+                    salir = false
+                    break
+
+            }
+        } while (!salir)
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
