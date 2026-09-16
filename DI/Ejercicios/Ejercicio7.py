@@ -18,6 +18,7 @@ class MainWindow(QMainWindow): # Creación de una clase
         boton.setChecked(self.botonPulsado) # Esto pone si el estado inicial del botón está checked o no
         # boton.released
         
+        
         self.setFixedSize(QSize(200,200)) # Tamaño fijo de la ventana
         
         self.setCentralWidget(boton) # Meto el botón
@@ -32,9 +33,6 @@ class MainWindow(QMainWindow): # Creación de una clase
 
 
 app = QApplication([])
-
 window = MainWindow()
-
 window.show()
-
 app.exec()
