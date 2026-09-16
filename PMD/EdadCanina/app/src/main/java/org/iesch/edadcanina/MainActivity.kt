@@ -17,5 +17,7 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         // Aquí la pantalla está creada.
+
+        // 1 - Tomamos el control de todos los elementos de la parte de la interfaz
     }
 }

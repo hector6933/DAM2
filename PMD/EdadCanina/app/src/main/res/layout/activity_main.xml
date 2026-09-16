@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="Si fueras un perro tendrías 47 años"
+        tools:text="Si fueras un perro tendrías 47 años"
         android:textColor="@color/Rojado"
         android:textSize="24sp"
         android:textStyle="bold"
