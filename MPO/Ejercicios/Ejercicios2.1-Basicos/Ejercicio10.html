@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej10</title>
+    <script>
+
+        const dias = ["lunes", "martes", "miércoles", "miercoles", "jueves", "viernes", "sábado", "sabado", "domingo"]
+
+        
+
+        let nombre = ""
+        let edad = 0
+        let dia = ""
+        let precio = 12.5
+
+        do {
+
+            nombre = prompt("Introduce tú nombre:")
+            if (!nombre) {
+
+                alert("Nombre inválido!")
+
+            } else break
+
+        } while (true)
+        do {
+
+            edad = prompt("Introduce tú edad:")
+            if (!edad || !parseInt(edad) || edad < 0) {
+
+                alert("Edad inválida!")
+
+            } else break
+
+        } while (true)
+
+        do {
+
+            dia = prompt("Introduce el día de la semana:").toLowerCase()
+            if (!dias.some(d => d === dia)) {
+
+                alert("Día inválido")
+
+            } else break
+
+        } while (true)
+
+        let descuento1 = ""
+        if (edad >= 18 && edad <= 26) {
+
+            descuento1 = "Descuento del 15% por estar entre los 18 y 26 años"
+            precio = precio - (precio * 0.15)
+
+        } else if (edad > 60) {
+
+            descuento1 = "Descuento del 15% por ser mayor de 60 años"
+            precio = precio - (precio * 0.15)
+        }
+
+        let descuento2 = ""
+        if (dia === "miércoles" || dia === "miercoles" || dia === "viernes") {
+
+            descuento2 = `Descuento del 5% por viajar el ${dia}`
+            precio = precio - (precio * 0.05)
+
+        }
+
+        const resultado =
+            `
+            ${descuento1 ? (`${descuento1}\n`) : ""} 
+            ${descuento2 ? (`${descuento2}\n`) : ""} 
+            Precio final sin IVA: ${precio} \n
+            Precio final con IVA: ${precio * 1.21}
+            `
+
+        alert(resultado)
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
