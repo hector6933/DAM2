@@ -27,6 +27,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/perro"
         android:src="@drawable/perro"
         android:adjustViewBounds="true"
         />
@@ -36,7 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:text="¿Qué edad tienes?"
+        android:text="@string/qu_edad_tienes"
         android:textColor="@color/Rojado"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -50,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24dp"
         android:ems="10"
-        android:hint="Introduce tu edad"
+        android:hint="@string/introduce_tu_edad"
         android:gravity="center"
         android:inputType="number"
         />
@@ -61,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="24sp"
         android:layout_marginVertical="14dp"
-        android:text="Calcular"
+        android:text="@string/calcular"
         android:backgroundTint="@color/Rojado"
         android:textSize="20sp"
         />
@@ -69,8 +70,7 @@
         android:id="@+id/texto_respuesta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        tools:text="Si fueras un perro tendrías 47 años"
+        tools:text=""
         android:textColor="@color/Rojado"
         android:textSize="24sp"
         android:textStyle="bold"
