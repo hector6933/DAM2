@@ -57,10 +57,10 @@ public class ComparadorGravedad {
 
         System.out.println("---------------------------------------------------------");
 
-        System.out.println("Atendiendo siguiente paciente: " + cola.poll());
-        System.out.println("Atendiendo siguiente paciente: " + cola.poll());
-        System.out.println("Atendiendo siguiente paciente: " + cola.poll());
-        System.out.println("Atendiendo siguiente paciente: " + cola.poll());
+        System.out.println("Atendiendo al siguiente paciente: " + cola.poll());
+        System.out.println("Atendiendo al siguiente paciente: " + cola.poll());
+        System.out.println("Atendiendo al siguiente paciente: " + cola.poll());
+        System.out.println("Atendiendo al siguiente paciente: " + cola.poll());
 
     }
 
