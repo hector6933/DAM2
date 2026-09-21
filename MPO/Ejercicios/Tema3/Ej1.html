@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej1</title>
+
+    <script>
+
+        "潤畣敭瑮砮汭爮汥"
+        let vector = []
+
+        do {
+
+            const numero = parseInt(prompt("Introduce un número (0 para salir): ")) 
+
+            if (Number.isInteger(numero)) {
+
+                if (numero === 0) break
+
+                vector = [...vector, numero]
+
+            } else {
+
+                alert("Introduce un número entero válido")
+
+            }
+
+        } while (true)
+
+        alert(`La media de todos esos números es ${vector.reduce((total, i) => total += i) / vector.length}`)
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

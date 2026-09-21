@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej2</title>
+
+    <script>
+
+        const letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
+
+        let dni = ""
+
+        do {
+
+            dni = prompt("Introduce un dni:")
+            if (dni.length !== 9) {
+
+                alert("¡El DNI NO es correcto!")
+                continue
+            }
+
+            let letraReal = ""
+            let letra = dni.charAt(8)
+            dni = parseInt(dni.substring(0, 8))
+            console.log(letra);
+            console.log(dni);
+
+            if (Number.isInteger(dni)) {
+
+                let resto = dni % 23
+
+                letraReal = letras[resto]
+
+
+            } else {
+
+                alert("¡El DNI NO es correcto!")
+                continue
+
+            }
+
+            if (letraReal.toUpperCase() !== letra.toUpperCase()) {
+
+                alert("¡El DNI NO es correcto!")
+                continue
+
+            } else {
+
+                alert("EL DNI ES CORRECTO !!!!!!!!!!!!!")
+                break
+
+            }
+
+        } while (true)
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

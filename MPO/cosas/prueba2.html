@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p2</title>
+
+    <script>
+        var cad="Pascual:Perez:123456";
+        var tfo;
+        cad=cad.toUpperCase();
+        alert(cad);
+        splitTodosCampos=cad.split(":");
+        split1Campo=cad.split(":",1);
+        alert(splitTodosCampos);
+        alert(split1Campo);
+        tfo=splitTodosCampos[2];
+        //Cambio en el telefono los números 3 por 9s
+        tfo=tfo.replace("2","9");
+        alert(tfo);
+        //Muestro el quinto número del teléfono
+        alert(tfo.charAt(4));
+        alert("Bienvenido al CPIFP Bajo Aragón")
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

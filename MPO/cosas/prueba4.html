@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p4</title>
+
+    <script>
+
+        // Creamos un intervalo que cada 15 segundos muestra mensaje hola
+        var idA = setInterval("alert('hola');", 15000);
+        // Creamos un timeout que cuando pasen 3 segundos muestra mensaje adios
+        var idB = setTimeout("alert('adios');", 3000);
+        // Creamos un timeout que cuando pasen 5 segundos muestra mensaje estonoseve
+        var idC = setTimeout("alert('estonoseve');", 5000);
+        // Cancelamos el ultimo timeout
+        clearTimeout(idC);
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>
