@@ -21,24 +21,12 @@ public class Paciente {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     public Integer getGravedad() {
         return gravedad;
     }
 
-    public void setGravedad(Integer gravedad) {
-        this.gravedad = gravedad;
-    }
-
     public LocalDateTime getLlegada() {
         return llegada;
-    }
-
-    public void setLlegada(LocalDateTime llegada) {
-        this.llegada = llegada;
     }
 
     @Override

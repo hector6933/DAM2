@@ -43,7 +43,9 @@ public class ComparadorGravedad {
                 new Paciente("Héctor", 9, LocalDateTime.parse("2026-09-16T10:30"))
         ));
 
-        PriorityQueue<Paciente> cola = new PriorityQueue<>(Comparator.comparing(Paciente::getGravedad).reversed().thenComparing(Paciente::getLlegada));
+        Comparator<Paciente> comparador = Comparator.comparing(Paciente::getGravedad).reversed().thenComparing(Paciente::getLlegada);
+
+        PriorityQueue<Paciente> cola = new PriorityQueue<>(comparador);
 
         cola.addAll(pacientes);
 
@@ -53,7 +55,7 @@ public class ComparadorGravedad {
         System.out.println("---------------------------------------------------------");
 
         System.out.println("Cola con el orden real de atención a los pacientes: ");
-        cola.stream().sorted(Comparator.comparingInt(Paciente::getGravedad).reversed().thenComparing(Paciente::getLlegada)).forEach(System.out::println);
+        cola.stream().sorted(comparador).forEach(System.out::println);
 
         System.out.println("---------------------------------------------------------");
 
