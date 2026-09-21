@@ -9,18 +9,18 @@ public class Ejercicio2 {
 
         try {
 
-//            Process notepadPlusPlus = new ProcessBuilder("C:\\Users\\dam2\\Documents\\comandosPing.bat")
-//                    .redirectInput(ProcessBuilder.Redirect.INHERIT)
-//                    .redirectOutput(ProcessBuilder.Redirect.INHERIT)
-//                    .redirectError(ProcessBuilder.Redirect.INHERIT).start();
 
-            File fichero = new File("C:\\Users\\dam2\\Documents\\logs.txt");
-            Process notepadPlusPlus = new ProcessBuilder("C:\\Users\\dam2\\Documents\\comandosPing.bat")
-                    .redirectInput(fichero)
-                    .redirectOutput(fichero)
-                    .redirectError(fichero).start();
+            Process notepadConsola = new ProcessBuilder("C:\\Users\\dam2\\Documents\\comandosPing.bat")
+                    .redirectInput(ProcessBuilder.Redirect.INHERIT)
+                    .redirectOutput(ProcessBuilder.Redirect.INHERIT)
+                    .redirectError(ProcessBuilder.Redirect.INHERIT).start();
 
-
+            File logs = new File("src/main/java/Tema1/Ejercicios1/logs.txt");
+            File errores = new File("src/main/java/Tema1/Ejercicios1/errors.txt");
+            Process notepadFichero = new ProcessBuilder("C:\\Users\\dam2\\Documents\\comandosPing.bat")
+                    .redirectInput(logs)
+                    .redirectOutput(logs)
+                    .redirectError(errores).start();
 
         } catch (IOException e) {
 

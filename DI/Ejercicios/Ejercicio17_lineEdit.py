@@ -25,7 +25,6 @@ class MainWindow(QMainWindow): # Creación de una clase
     
     def intro(self):
         print(self.texto.text())
-    
         
 
 app = QApplication([])
