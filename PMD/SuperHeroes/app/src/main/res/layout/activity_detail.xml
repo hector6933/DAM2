@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sebusca" />
+
+    <TextView
+        android:id="@+id/heroName_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        tools:text="Iron man"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/alter_ego_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/alterEgoText"
+        app:layout_constraintTop_toBottomOf="@+id/alterEgoText"
+        tools:text="Tony Stark" />
+
+    <TextView
+        android:id="@+id/alterEgoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Alter Ego"
+        android:textColor="@color/gris"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/heroName_tv"
+        app:layout_constraintTop_toBottomOf="@+id/heroName_tv" />
+
+    <TextView
+        android:id="@+id/bio_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/bio_result"
+        app:layout_constraintTop_toBottomOf="@+id/bio_result"
+        tools:text="Genio, millonario, filántropo y playboy" />
+
+    <TextView
+        android:id="@+id/bio_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bio"
+        android:textColor="@color/gris"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/alter_ego_result"
+        app:layout_constraintTop_toBottomOf="@+id/alter_ego_result" />
+
+    <TextView
+        android:id="@+id/power_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bio_text"
+        tools:text="Power" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:isIndicator="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:progressTint="@color/amarillo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/power_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

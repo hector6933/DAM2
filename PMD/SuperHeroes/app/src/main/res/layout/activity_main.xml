@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sebusca" />
+        android:src="@drawable/camara" />
 
     <EditText
         android:id="@+id/heroNameEdit"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toTopOf="@id/HeroNameImage" />
 
     <EditText
-        android:id="@+id/heroNameEdit2"
+        android:id="@+id/alterEgoEdit"
         android:layout_width="190dp"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
@@ -92,12 +92,26 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextText3" />
 
     <RatingBar
-        android:id="@+id/ratingBar"
+        android:id="@+id/power"
+        android:rating="2.5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:progressTint="@color/amarillo"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textPower" />
+
+    <Button
+        android:id="@+id/botonGuardar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Guardar"
+
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
