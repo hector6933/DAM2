@@ -13,13 +13,14 @@ class MainWindow(QMainWindow): # Creación de una clase
         formato = casilla.font()
         formato.setBold(True)
         casilla.setFont(formato)
+        casilla.setTristate(True)
         
         casilla.stateChanged.connect(self.muestraEstado)
         
         self.setCentralWidget(casilla) 
         
     def muestraEstado(self,s):
-        print(s)
+        print(["Sin marcar","Parcialmente","Marcado"][s])
         
         
 
