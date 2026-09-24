@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import org.iesch.superheroes.databinding.ActivityDetailBinding
+import org.iesch.superheroes.model.SuperHeroe
 
 class DetailActivity : AppCompatActivity() {
 
@@ -28,20 +29,32 @@ class DetailActivity : AppCompatActivity() {
             insets
         }
 
+        // 1 - Recibimos el Objeto Superheroe del Intent
+        val superHeroe = if ( android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU ) {
+            // Para versiones SON 33 o superiores
+            intent.getParcelableExtra("superHeroe", SuperHeroe::class.java)
+
+        } else {
+            // Para versiones anteriores a la 33
+            intent.getParcelableExtra<SuperHeroe>("superHeroe")
+
+        }
+
+
         // Último paso: Recibimos los datos del Main Activity
 
         // Nos creamos el putísimo bundle
-        val datosRecibidos = intent.extras!!
-        val superHeroName = datosRecibidos.getString("superHeroName") ?: "No hay nombre xDDDDDDDDDDDDDDDDDDDDDDD"
-        val alterEgo = datosRecibidos.getString("alterEgo") ?: "No hay alter ego ;(((("
-        val bio = datosRecibidos.getString("bio") ?: "No hay bio :|"
-        val power = datosRecibidos.getFloat("power")
+//        val datosRecibidos = intent.extras!!
+//        val superHeroName = datosRecibidos.getString("superHeroName") ?: "No hay nombre xDDDDDDDDDDDDDDDDDDDDDDD"
+//        val alterEgo = datosRecibidos.getString("alterEgo") ?: "No hay alter ego ;(((("
+//        val bio = datosRecibidos.getString("bio") ?: "No hay bio :|"
+//        val power = datosRecibidos.getFloat("power")
 
         // Rellenamos los campos
-        binding.heroNameTv.text = superHeroName
-        binding.alterEgoResult.text = alterEgo
-        binding.bioResult.text = bio
-        binding.ratingBar2.rating = power
+        binding.heroNameTv.text = superHeroe?.nombre ?: "No hay nombre"
+        binding.alterEgoResult.text = superHeroe?.alterEgo ?: "No hay AlterEgo"
+        binding.bioResult.text = superHeroe?.bio ?: "No hay bio"
+        binding.ratingBar2.rating = superHeroe?.power ?: 0f
 
     }
 }
