@@ -1,0 +1,17 @@
+Usuario actual: 
+b304pc02\dam2
+ El volumen de la unidad C no tiene etiqueta.
+ El n£mero de serie del volumen es: 6CD1-51E7
+
+ Directorio de C:\Users\dam2\Desktop\DAM2\PSP\Java_PSP
+
+21/09/2026  16:23    <DIR>          .
+21/09/2026  16:18    <DIR>          ..
+21/09/2026  16:18               498 .gitignore
+24/09/2026  21:16    <DIR>          .idea
+21/09/2026  16:18    <DIR>          .mvn
+21/09/2026  16:18               649 pom.xml
+21/09/2026  16:18    <DIR>          src
+21/09/2026  16:23    <DIR>          target
+               2 archivos          1.147 bytes
+               6 dirs  1.858.512.699.392 bytes libres
