@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -11,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SuperHeroes">
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -25,6 +27,20 @@
             android:name=".DetailActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <!-- Para lo de la cámara y crear un nuevo xml con el nombre de resource-->
+        <provider
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:windowSoftInputMode="adjustResize"
+            android:name="androidx.core.content.FileProvider"
+            >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
     </application>
+
+
 
 </manifest>
