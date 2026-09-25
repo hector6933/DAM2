@@ -13,18 +13,26 @@ class MainWindow(QMainWindow): # Creación de una clase
         
         self.setWindowTitle("Mi aplicación")
         
-        plantilla = QVBoxLayout()
-        plantilla.addWidget(Color("Red"))
-        plantilla.addWidget(Color("Lime"))
-        plantilla.addWidget(Color("Blue"))
-        plantilla.addWidget(Color("Purple"))
-        plantilla.addWidget(Color("Black"))
-        plantilla.addWidget(Color("Orange"))
-        plantilla.addWidget(Color("Yellow"))
+        vertical1 = QVBoxLayout()
+        vertical1.addWidget(Color("Lime"))
+        vertical1.addWidget(Color("Red"))
+        vertical1.addWidget(Color("Cyan"))
         
+        vertical2 = QVBoxLayout()
+        vertical2.addWidget(Color("Lime"))
+        vertical2.addWidget(Color("Red"))
+        vertical2.addWidget(Color("Cyan"))
+        
+        
+        # Este es el padre que contiene a los dos layouts
+        horizontal = QHBoxLayout() 
+        horizontal.addLayout(vertical1)
+        horizontal.addWidget(Color("Yellow"))
+        horizontal.addLayout(vertical2)
         
         widget = QWidget()
-        widget.setLayout(plantilla)
+        widget.setLayout(horizontal)
+        
         self.setCentralWidget(widget)
         
        
