@@ -1,5 +1,7 @@
 package Probatinas.p4;
 
+import java.util.Objects;
+
 public class Persona {
     String nombre;
     int edad;
@@ -33,5 +35,17 @@ public class Persona {
                 "nombre='" + nombre + '\'' +
                 ", edad='" + edad + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Persona persona = (Persona) o;
+        return edad == persona.edad && Objects.equals(nombre, persona.nombre);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre, edad);
     }
 }

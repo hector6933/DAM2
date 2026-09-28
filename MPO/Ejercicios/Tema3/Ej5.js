@@ -47,8 +47,6 @@ dias.forEach(d => {
 })
 document.write("</tr>")
 
-
-
 let num = 1
 document.write("<tr>")
 for (let i = 1; i <= 42; i++) {

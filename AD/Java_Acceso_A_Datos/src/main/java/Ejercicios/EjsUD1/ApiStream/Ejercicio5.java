@@ -21,9 +21,9 @@ public class Ejercicio5 {
         ));
 
 
-        Predicate<String> filtrar = e -> e.toLowerCase().startsWith("a") || e.toLowerCase().startsWith("á");
+        Predicate<String> startsA = e -> e.toLowerCase().startsWith("a") || e.toLowerCase().startsWith("á");
 
-        nombres.removeIf(filtrar.negate());
+        nombres.removeIf(startsA.negate());
 
         System.out.println(nombres);
 

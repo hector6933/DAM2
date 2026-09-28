@@ -8,7 +8,6 @@ import java.util.List;
 public class Ejercicio4 {
 
     static void main(String[] args) {
-
         List<Persona> personas = new ArrayList<>(Arrays.asList(
                 new Persona("Lucía", 28),
                 new Persona("Marcos", 34),
@@ -32,8 +31,18 @@ public class Ejercicio4 {
                 new Persona("Sergio", 36)
         ));
 
-        // System.out.println(personas.stream().sorted(Comparator.comparing(Persona::getEdad)).toList());
+        // Nombre ascendente
         System.out.println(personas.stream().sorted(Comparator.comparing(Persona::getNombre)).toList());
+
+        // Edad ascendente
+        personas.stream().sorted(Comparator.comparing(Persona::getEdad)).forEach(System.out::println);
+        // Edad descendente
+        personas.stream().sorted(Comparator.comparing(Persona::getEdad).reversed()).forEach(System.out::println);
+        // Forma andrés y juanma
+        //personas.stream().sorted((s, a) -> s.getEdad() - a.getEdad()).forEach(System.out::println);
+
+        // Longitud de nombre ascendente
+        personas.stream().sorted(Comparator.comparingInt(s -> s.getNombre().length())).forEach(System.out::println);
 
 
     }

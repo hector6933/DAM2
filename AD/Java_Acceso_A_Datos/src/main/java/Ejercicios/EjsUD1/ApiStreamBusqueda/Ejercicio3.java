@@ -11,18 +11,18 @@ public class Ejercicio3 {
         // Le meto long ya que la suma es muy grande
         Random random = new Random();
 
-        List<Long> numeros = new ArrayList<>();
+        List<Integer> numeros = new ArrayList<>();
 
         do {
 
-            numeros.add(random.nextLong(0,1001));
+            numeros.add(random.nextInt(0,101));
 
         } while (numeros.size() != 100);
 
         System.out.println(numeros);
 
-        Long suma = numeros.stream().reduce((num,total) -> total += num * num).orElse(null);
-
+        // Long suma = numeros.stream().reduce((num,total) -> total += num * num).orElse(null);
+        Integer suma = numeros.stream().map(n -> n*n).reduce(0, Integer::sum);
         System.out.println(suma);
 
 

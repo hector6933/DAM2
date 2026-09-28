@@ -23,7 +23,8 @@ public class Ejercicio3 {
         Function<Integer,Integer> cubizar = e -> (int) Math.pow(e,3);
 
         System.out.println(lista);
-        lista.replaceAll(e -> (int) Math.pow(e,3));
+        // lista.replaceAll(e -> (int) Math.pow(e,3)); esto NO es una function
+        lista = lista.stream().map(cubizar).toList();
 
         System.out.println(lista);
 
