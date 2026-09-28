@@ -1,8 +1,10 @@
+
+C:\Users\dam2\Desktop\DAM2\PSP\Java_PSP>echo Usuario actual:   && whoami   && echo Directorio actual:   && cd   && echo Contenido del directorio:   && dir
 Usuario actual: 
 b304pc02\dam2
 Directorio actual: 
 C:\Users\dam2\Desktop\DAM2\PSP\Java_PSP
-Contenido del directorio 
+Contenido del directorio: 
  El volumen de la unidad C no tiene etiqueta.
  El n£mero de serie del volumen es: 6CD1-51E7
 
@@ -11,10 +13,10 @@ Contenido del directorio
 21/09/2026  16:23    <DIR>          .
 21/09/2026  16:18    <DIR>          ..
 21/09/2026  16:18               498 .gitignore
-28/09/2026  16:11    <DIR>          .idea
+28/09/2026  16:37    <DIR>          .idea
 21/09/2026  16:18    <DIR>          .mvn
 21/09/2026  16:18               649 pom.xml
 21/09/2026  16:18    <DIR>          src
 21/09/2026  16:23    <DIR>          target
                2 archivos          1.147 bytes
-               6 dirs  1.859.207.147.520 bytes libres
+               6 dirs  1.859.203.252.224 bytes libres

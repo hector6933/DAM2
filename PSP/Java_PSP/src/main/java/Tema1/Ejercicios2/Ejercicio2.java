@@ -9,7 +9,11 @@ public class Ejercicio2 {
 
         try {
 
-            Process proceso =  new ProcessBuilder("cmd","/c","echo Usuario actual: && whoami && dir").redirectOutput(new File("src/main/java/Tema1/Ejercicios2/archivo.txt")).start();
+            Process proceso =  new ProcessBuilder
+                    ("cmd","/c","C:\\Users\\dam2\\Desktop\\DAM2\\PSP\\Java_PSP\\src\\main\\java\\Tema1\\Ejercicios2\\comandos2.bat")
+                    .redirectOutput(new File("src/main/java/Tema1/Ejercicios2/archivo2.txt"))
+                    .redirectError(new File("src/main/java/Tema1/Ejercicios2/errores2.txt"))
+                    .start();
 
         } catch (IOException e) {
 
