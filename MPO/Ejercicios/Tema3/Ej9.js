@@ -1,8 +1,6 @@
-const palabras = prompt("Introduce una frase").trim().split(" ")
+let palabras = prompt("Introduce una frase").trim().split(" ")
 
-const hola = "hola"
-
-palabras.map(p => {
+palabras = palabras.map(p => {
 
     if (p.length === 0) return ""
 
@@ -10,3 +8,4 @@ palabras.map(p => {
 
 })
 
+alert(palabras)
