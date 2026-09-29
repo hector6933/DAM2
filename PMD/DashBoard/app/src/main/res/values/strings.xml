@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DashBoard</string>
+    <string name="hola_h_ctor">Hola, Héctor</string>
+    <string name="imgedadcanina">imgEdadCanina</string>
+    <string name="edad_canina">Edad canina</string>
+    <string name="imgsuperheroe">imgSuperHeroe</string>
+    <string name="superheroe">SuperHeroe</string>
+</resources>
