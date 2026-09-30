@@ -1,0 +1,54 @@
+[{
+nombre: "Héctor",
+apellido: "Criado"
+},
+{
+nombre: "José",
+dni: "19234505R"
+},
+{
+nombre: "Andrés",
+apellido: "Criado",
+dni: "67676767T"
+},
+{
+nombre: "Antonia",
+apellido: "Tapón",
+dni: "56823910N",
+calle: "Ayuda que me cago",
+cp: 66550
+},
+{
+nombre: "Juan",
+apellido: "Manuel"
+}
+]
+
+mi.db.find({$and: [{nombre: "Antonia"},{dni: '56823910N'}]})
+
+db.miBaseDeDatos.insertOne({marca: "Audi", modelo: "A3",
+	propietario: {
+		dni: '12345678A',
+		nombre: 'Pepe'
+	}
+})
+
+{
+	titulo: "Receta pasc",
+	ingredientes: 
+	[
+	{nombre: "loquesea", cantidad: "300ml"},
+	{nombre: "loquesea2", cantidad: "400ml"}
+	]
+	realizacion: "amndanwdandjaolsdfnsdf",
+	comentarios: [
+	{
+		autor: "Pepe",
+		texto: "amdwadma"
+	},
+	{
+		autor: "Yo",
+		texto: "mdawmdmad"
+	}
+	]
+}
