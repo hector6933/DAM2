@@ -52,18 +52,19 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="350dp"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:hint=" hola que tal"
+        app:hintEnabled="false"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxBackgroundColor="#FFFFFF"
+        app:boxStrokeColor="@android:color/transparent"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
         app:boxCornerRadiusTopStart="16dp"
         app:boxCornerRadiusTopEnd="16dp"
         app:boxCornerRadiusBottomStart="16dp"
         app:boxCornerRadiusBottomEnd="16dp"
-        app:hintEnabled="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="486dp">
 
         <com.google.android.material.textfield.TextInputEditText
