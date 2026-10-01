@@ -10,6 +10,15 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle_white_top" />
+
+    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Hi, Olivia Alonso"
+        android:text="Hola, arodriguezg@iesch.org"
         android:textColor="#ffffff"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -37,10 +46,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Good Morning"
-        android:textStyle="bold"
+        android:text="Buenos días"
         android:textColor="#FEDD06"
         android:textSize="36dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView3"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/textView3"
@@ -49,13 +58,11 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="32dp"
         android:background="@drawable/bottom_background_light_green"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4">
+        app:layout_constraintStart_toStartOf="parent">
 
         <TableLayout
             android:id="@+id/tableLayout"
@@ -82,7 +89,7 @@
                         android:background="@drawable/white_btn_background">
 
                         <ImageView
-                            android:id="@+id/imageView"
+                            android:id="@+id/imagenDogo"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -93,18 +100,20 @@
                             app:srcCompat="@drawable/circle_green" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/imagenDogo2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/imageView"
-                            app:srcCompat="@drawable/btn_1" />
+                            app:layout_constraintTop_toTopOf="@+id/imagenDogo"
+                            app:srcCompat="@drawable/dogoargentino" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/textViewCart"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Cart"
@@ -125,7 +134,7 @@
                         android:background="@drawable/white_btn_background">
 
                         <ImageView
-                            android:id="@+id/imageView"
+                            android:id="@+id/imagenMaps"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -136,18 +145,21 @@
                             app:srcCompat="@drawable/circle_green" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:id="@+id/imagenMaps2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginBottom="8dp"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/imageView"
-                            app:srcCompat="@drawable/btn_2" />
+                            app:layout_constraintTop_toTopOf="@+id/imagenMaps"
+                            app:srcCompat="@drawable/calculadora" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/textViewMaps"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Maps"
@@ -168,7 +180,7 @@
                         android:background="@drawable/white_btn_background">
 
                         <ImageView
-                            android:id="@+id/imageView"
+                            android:id="@+id/imagenInbox"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -179,18 +191,18 @@
                             app:srcCompat="@drawable/circle_green" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/imagenInbox2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/imageView"
+                            app:layout_constraintTop_toTopOf="@+id/imagenInbox"
                             app:srcCompat="@drawable/btn_3" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/textViewInbox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Inbox"
@@ -217,7 +229,7 @@
                         android:background="@drawable/white_btn_background">
 
                         <ImageView
-                            android:id="@+id/imageView"
+                            android:id="@+id/imagenSettings"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -228,18 +240,18 @@
                             app:srcCompat="@drawable/circle_green" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/imagenSettings2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/imageView"
+                            app:layout_constraintTop_toTopOf="@+id/imagenSettings"
                             app:srcCompat="@drawable/btn_4" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/textViewSettings"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Settings"
@@ -260,7 +272,7 @@
                         android:background="@drawable/white_btn_background">
 
                         <ImageView
-                            android:id="@+id/imageView"
+                            android:id="@+id/imagenFavourite"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -271,18 +283,19 @@
                             app:srcCompat="@drawable/circle_green" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/imagenFavourite2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/imageView"
+                            app:layout_constraintTop_toTopOf="@+id/imagenFavourite"
                             app:srcCompat="@drawable/btn_5" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/textViewFavourite"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Favourite"
@@ -303,7 +316,7 @@
                         android:background="@drawable/white_btn_background">
 
                         <ImageView
-                            android:id="@+id/imageView"
+                            android:id="@+id/imagenLogout"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
@@ -314,18 +327,19 @@
                             app:srcCompat="@drawable/circle_green" />
 
                         <ImageView
-                            android:id="@+id/imageView5"
+                            android:id="@+id/imagenLogout2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="@+id/imageView"
+                            app:layout_constraintTop_toTopOf="@+id/imagenLogout"
                             app:srcCompat="@drawable/btn_6" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
-                        android:id="@+id/textView5"
+                        android:id="@+id/textViewLogout"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Logout"

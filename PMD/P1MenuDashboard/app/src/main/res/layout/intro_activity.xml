@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EBFCFB">
@@ -19,7 +20,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to UiLover"
+        android:text="Bienvenidos a App Iesch"
         android:textColor="#000000"
         android:textSize="26sp"
         android:textStyle="bold"
@@ -27,12 +28,48 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="32dp"
+        android:background="@drawable/button_background_green_1"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="722dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="We have many features such as, nasdo, jandsnjas, asdnoasd ,iadnoan ,ansdoas"
+        android:background="#FFFFFF"
+        android:hint=" hola que tal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxCornerRadiusTopStart="16dp"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:hintEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        tools:layout_editor_absoluteY="486dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Login" />
+    </com.google.android.material.textfield.TextInputLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
