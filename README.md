@@ -1,2 +1,2 @@
-# DAM2 (ft. Joserra)
+# DAM2
 Repositorio de mis cosas de DAM2
