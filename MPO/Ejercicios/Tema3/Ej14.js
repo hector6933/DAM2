@@ -12,5 +12,15 @@ do {
 
 } while (true)
 
+if ((input % 4 === 0 && input % 100 !== 0) || input % 400 === 0 ) {
 
-new Date().
+    alert("Es un año bisiesto")
+
+} else {
+
+    alert("NOOOO es un año bisiesto")
+
+}
+
+// • Es divisible entre 4 y no es divisible entre 100.
+// • Es divisible entre 400

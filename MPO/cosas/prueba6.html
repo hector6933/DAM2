@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P6</title>
+
+    <style>
+        .padre {
+
+            display: flex;
+            gap: 5px;
+
+        }
+
+        .caja {
+
+            width: 50px;
+            height: 50px;
+            background-color: rgb(89, 0, 255);
+
+        }
+
+        .stan {
+
+            background-color: rgb(255, 0, 0);
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="padre">
+        <div class="caja" name="caja"></div>
+        <div class="caja" name="caja"></div>
+        <div class="caja" name="caja"></div>
+        <div class="caja" name="caja"></div>
+        <div class="caja" name="caja"></div>
+        <div class="caja" name="caja"></div>
+    </div>
+
+</body>
+
+<script defer>
+
+    var cajas = document.getElementsByName("caja")
+
+    cajas.forEach(element => {
+        element.addEventListener("click", () => { element.classList.toggle("stan") })
+    });
+
+</script>
+
+
+</html>
