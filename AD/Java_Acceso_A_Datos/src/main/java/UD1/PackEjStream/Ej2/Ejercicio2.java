@@ -40,7 +40,7 @@ public class Ejercicio2 {
 
                 escribir.write(nuevaLinea.toString());
                 escribir.newLine();
-                
+
             }
 
         } catch (Exception e) {

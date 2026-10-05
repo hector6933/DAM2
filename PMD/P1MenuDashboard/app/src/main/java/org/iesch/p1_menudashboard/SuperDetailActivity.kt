@@ -1,24 +1,25 @@
-package org.iesch.superheroes
+package org.iesch.p1_menudashboard
 
 import android.graphics.BitmapFactory
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import org.iesch.superheroes.databinding.ActivityDetailBinding
+import org.iesch.p1_menudashboard.databinding.SuperActivityDetailBinding
 import org.iesch.superheroes.model.SuperHeroe
 
-class DetailActivity : AppCompatActivity() {
+class SuperDetailActivity : AppCompatActivity() {
 
     // 1 - Creamos la variable de lateinit porque la vamos a inicializar luego
-    private lateinit var binding: ActivityDetailBinding
+    private lateinit var binding: SuperActivityDetailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         // 2 - Inicializamos el binding
-        binding = ActivityDetailBinding.inflate(layoutInflater)
+        binding = SuperActivityDetailBinding.inflate(layoutInflater)
         // setContentView(R.layout.activity_detail)
         // Antes había esto setContentView(R.layout.activity_main)
         setContentView(binding.root) // Y ya está
@@ -29,7 +30,7 @@ class DetailActivity : AppCompatActivity() {
         }
 
         // 1 - Recibimos el Objeto Superheroe del Intent
-        val superHeroe = if ( android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU ) {
+        val superHeroe = if ( Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU ) {
             // Para versiones SON 33 o superiores
             intent.getParcelableExtra("superHeroe", SuperHeroe::class.java)
 
