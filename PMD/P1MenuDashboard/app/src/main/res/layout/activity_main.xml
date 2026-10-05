@@ -33,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="Hola, arodriguezg@iesch.org"
+        tools:text="Hola, arodriguezg@iesch.org"
         android:textColor="#ffffff"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -78,6 +78,7 @@
                 android:gravity="center">
 
                 <LinearLayout
+                    android:id="@+id/btnEdadCanina"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
@@ -116,13 +117,14 @@
                         android:id="@+id/textViewCart"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Cart"
+                        android:text="Edad Canina"
                         android:textAlignment="center"
                         android:textColor="#34346E"
                         android:textSize="18sp" />
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btnSuper"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
@@ -162,7 +164,7 @@
                         android:id="@+id/textViewMaps"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Maps"
+                        android:text="SuperHeroes"
                         android:textAlignment="center"
                         android:textColor="#34346E"
                         android:textSize="18sp" />
@@ -192,13 +194,13 @@
 
                         <ImageView
                             android:id="@+id/imagenInbox2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="@+id/imagenInbox"
-                            app:srcCompat="@drawable/btn_3" />
+                            app:srcCompat="@drawable/pregunta" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                     <TextView
