@@ -50,7 +50,3 @@ if (hoy.getMonth() < fecha.getMonth() || (hoy.getMonth() === fecha.getMonth() &&
 }
 
 alert(`Tienes ${edad} años!`)
-    
-
-
-
