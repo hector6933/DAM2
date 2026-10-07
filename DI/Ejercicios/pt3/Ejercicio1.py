@@ -13,38 +13,27 @@ class MainWindow(QMainWindow): # Creación de una clase
         
         self.setWindowTitle("Mi aplicación")
         
-        etiqueta = QLabel("Etiqueta")
-        etiqueta.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        
-        barra = QToolBar("Barrade herramientas")
+        barra = QToolBar("Barra de herramientas")
         barra.setIconSize(QSize(16,16))
         self.addToolBar(barra)
         
         boton = QAction(QIcon("Ejercicios/icons/bug.png"),"Mi botón",self)
         boton.triggered.connect(self.botonPulsado)
         
+        menu = self.menuBar()
+        menu_archivo = menu.addMenu("&Archivo")
+        menu_archivo.addAction(boton)
+        
         barra.addAction(boton)
         
-        boton.setStatusTip("Este es mi botón")
-        self.setStatusBar(QStatusBar(self))
-        
-        barra.addSeparator()
-        
-        boton2 = QAction(QIcon("Ejercicios/icons/cake.png"),"Mi botón 2",self)
-        boton2.triggered.connect(self.botonPulsado)
-        boton2.setStatusTip("Este es mi botón 2")
-        
-        barra.addAction(boton2)
-        
-        barra.addSeparator()
-        
-        barra.addWidget(QLabel("Texto"))
-        barra.addWidget(QCheckBox("Check"))
-        
-        self.setCentralWidget(etiqueta)
+        self.etiqueta = QLabel("Hola!")
+        self.etiqueta.setAlignment(Qt.AlignmentFlag.AlignLeft)
+        self.setCentralWidget(self.etiqueta)
 
     def botonPulsado(self):
-        print("Botón pulsado")
+        self.etiqueta.setText(f"Texto cambiado {self.cont}")
+        self.cont += 1
+        
 app = QApplication([])
 window = MainWindow()
 window.show()

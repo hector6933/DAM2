@@ -41,10 +41,23 @@ class MainWindow(QMainWindow): # Creación de una clase
         barra.addWidget(QLabel("Texto"))
         barra.addWidget(QCheckBox("Check"))
         
+        menu = self.menuBar()
+        menu_archivo = menu.addMenu("&Archivo")
+        menu_editar = menu.addMenu("&Editar")
+        menu_insertar = menu.addMenu("&Insertar")
+        
+        menu_archivo.addAction(boton)
+        menu_archivo.addAction(boton2)
+        
+        menu_archivo.addSeparator()
+        menu_mas = menu_archivo.addMenu("Más")
+        menu_mas.addAction(boton2)
+        menu_mas.addAction(boton)
+        
         self.setCentralWidget(etiqueta)
 
     def botonPulsado(self):
-        print("Botón pulsado")
+        print(f"{self.sender().text()} pulsado")
 app = QApplication([])
 window = MainWindow()
 window.show()
