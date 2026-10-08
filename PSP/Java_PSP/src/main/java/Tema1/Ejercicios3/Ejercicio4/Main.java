@@ -20,6 +20,7 @@ public class Main implements Runnable{
         Thread hilo1 = new Thread(new Hilo1());
         hilo1.start();
         int cont = 1;
+
         while (hilo1.isAlive()) {
 
             System.out.println("Esperando al hilo 1... (" + cont + ")");
