@@ -22,7 +22,7 @@ class MainWindow(QMainWindow): # Creación de una clase
         
         boton = QAction(QIcon("Ejercicios/icons/bug.png"),"Mi botón",self)
         boton.triggered.connect(self.botonPulsado)
-        
+
         barra.addAction(boton)
         
         boton.setStatusTip("Este es mi botón")
