@@ -1,4 +1,4 @@
-package Tema1.Ejercicios4.Ej3_mk2;
+package main.java.Tema1.Ejercicios4.Ej3_mk2;
 
 import java.util.Random;
 
@@ -43,13 +43,13 @@ class Cuenta {
         this.saldo = saldo;
     }
 
-    public synchronized Double getSaldo() {
+    public Double getSaldo() {
         return saldo;
     }
 
     public synchronized void ingresarDinero(Double cantidad) {
 
-        System.out.println("Hilo: " + Thread.currentThread().getName() + " | Ingresar Dinero " + cantidad + " | Saldo anterior " + getSaldo() + " | Saldo posterior " + (getSaldo() + cantidad));
+        System.out.println("Hilo: " + Thread.currentThread().getName() + " | Ingresar Dinero " + Math.floor(cantidad) + " | Saldo anterior " + Math.floor(getSaldo()) + " | Saldo posterior " + Math.floor(getSaldo() + cantidad));
 
         Random random = new Random();
 
@@ -65,7 +65,7 @@ class Cuenta {
 
     public synchronized void retirarDinero(Double cantidad) {
 
-        System.out.println("Hilo: " + Thread.currentThread().getName() + " | Retirar Dinero " + cantidad + " | Saldo anterior " + getSaldo() + " | Saldo posterior " + (getSaldo() - cantidad));
+        System.out.println("Hilo: " + Thread.currentThread().getName() + " | Retirar Dinero " + Math.floor(cantidad)  + " | Saldo anterior " + Math.floor(getSaldo()) + " | Saldo posterior " + Math.floor(getSaldo() - cantidad));
 
         Random random = new Random();
 
@@ -97,12 +97,6 @@ class Cuenta {
 
 class Hilo1 implements Runnable {
 
-    static void main(String[] args) {
-
-        new Thread(new Hilo1()).start();
-
-    }
-
     @Override
     public void run() {
 
@@ -125,12 +119,6 @@ class Hilo1 implements Runnable {
 }
 
 class Hilo2 implements Runnable {
-
-    static void main(String[] args) {
-
-        new Thread(new Hilo2()).start();
-
-    }
 
     @Override
     public void run() {
@@ -155,12 +143,6 @@ class Hilo2 implements Runnable {
 
 class Hilo3 implements Runnable {
 
-    static void main(String[] args) {
-
-        new Thread(new Hilo3()).start();
-
-    }
-
     @Override
     public void run() {
 
@@ -183,12 +165,6 @@ class Hilo3 implements Runnable {
 }
 class Hilo4 implements Runnable {
 
-    static void main(String[] args) {
-
-        new Thread(new Hilo4()).start();
-
-    }
-
     @Override
     public void run() {
 
@@ -210,12 +186,6 @@ class Hilo4 implements Runnable {
     }
 }
 class Hilo5 implements Runnable {
-
-    static void main(String[] args) {
-
-        new Thread(new Hilo5()).start();
-
-    }
 
     @Override
     public void run() {

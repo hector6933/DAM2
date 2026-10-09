@@ -1,0 +1,20 @@
+
+C:\Users\dam2\Desktop\DAM2\PSP\Java_PSP>ping www.dam2chomon.org 
+La solicitud de ping no pudo encontrar el host www.dam2chomon.org. Compruebe el nombre y
+vuelva a intentarlo.
+
+C:\Users\dam2\Desktop\DAM2\PSP\Java_PSP>ping www.google.es 
+
+Haciendo ping a www.google.es [142.251.39.163] con 32 bytes de datos:
+Respuesta desde 142.251.39.163: bytes=32 tiempo=33ms TTL=113
+Respuesta desde 142.251.39.163: bytes=32 tiempo=28ms TTL=113
+Respuesta desde 142.251.39.163: bytes=32 tiempo=29ms TTL=113
+Respuesta desde 142.251.39.163: bytes=32 tiempo=28ms TTL=113
+
+Estad¡sticas de ping para 142.251.39.163:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    M¡nimo = 28ms, M ximo = 33ms, Media = 29ms
+
+C:\Users\dam2\Desktop\DAM2\PSP\Java_PSP>pring www.iesch.org 
