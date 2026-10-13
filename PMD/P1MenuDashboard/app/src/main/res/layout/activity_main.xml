@@ -171,6 +171,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/btnQuizz"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="16dp"
@@ -207,7 +208,7 @@
                         android:id="@+id/textViewInbox"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Inbox"
+                        android:text="Quizzes"
                         android:textAlignment="center"
                         android:textColor="#34346E"
                         android:textSize="18sp" />

@@ -38,7 +38,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnSuper.setOnClickListener {
+
             startActivity(Intent(this, SuperHeroeMainActivity::class.java))
+
+        }
+
+        binding.btnQuizz.setOnClickListener {
+
+            startActivity(Intent(this, MainQuizz::class.java))
+
         }
 
     }

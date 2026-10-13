@@ -33,19 +33,28 @@
             android:name=".SuperHeroeMainActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+
         <provider
+            android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true"
-            android:windowSoftInputMode="adjustResize"
-            android:name="androidx.core.content.FileProvider"
-            >
+            android:windowSoftInputMode="adjustResize">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/provider_paths"/>
+                android:resource="@xml/provider_paths" />
         </provider>
+
         <activity
             android:name=".SuperDetailActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CheckQuizz"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MainQuizz"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
