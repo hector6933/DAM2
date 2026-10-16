@@ -1,5 +1,5 @@
 from PyQt6.QtCore import QSize, Qt
-from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QLabel, QLineEdit, QVBoxLayout, QWidget , QCheckBox
+from PyQt6.QtWidgets import QRadioButton , QApplication, QMainWindow, QPushButton, QLabel, QLineEdit, QVBoxLayout, QWidget , QCheckBox
 from PyQt6.QtGui import QPixmap
 class MainWindow(QMainWindow): # Creación de una clase
     

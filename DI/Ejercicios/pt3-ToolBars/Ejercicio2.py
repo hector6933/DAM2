@@ -22,8 +22,7 @@ class MainWindow(QMainWindow): # Creación de una clase
         
         vlayout.addWidget(etiquetahola)
         vlayout.addWidget(self.etiqueta)
-        
-        
+    
         
         barra = QToolBar("Barra de herramientas")
         barra.setIconSize(QSize(16,16))
