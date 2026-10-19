@@ -29,8 +29,6 @@ public class Main {
 
         System.out.println("Descargas totales: " + gestor.getDescargasCompletadas());
 
-
-
     }
 
 }

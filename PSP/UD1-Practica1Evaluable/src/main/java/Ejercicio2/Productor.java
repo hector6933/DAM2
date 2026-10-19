@@ -3,7 +3,7 @@ package Ejercicio2;
 public class Productor implements Runnable {
 
     private final Integer producir = 10;
-    private ColaTareas cola;
+    private final ColaTareas cola;
 
     public Productor(ColaTareas cola) {
         this.cola = cola;

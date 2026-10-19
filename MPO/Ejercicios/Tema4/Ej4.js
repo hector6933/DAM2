@@ -1,6 +1,6 @@
 const reaparecer = () => {
 
-    const elementosP = document.querySelectorAll("p");
+    const elementosP = document.querySelectorAll("p")
     elementosP.forEach(p => p.classList.remove("desaparecer"))
     // var elementosP = document.getElementsByTagName("p")
 
