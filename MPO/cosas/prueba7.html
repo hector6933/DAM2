@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF‑8">
+  <title>Tabla 100×100 – Casi primos</title>
+  <style>
+    table { border-collapse: collapse; }
+    td {
+      width: 60px; height: 30px;
+      border: 1px solid #aaa;
+      text-align: center;
+      font-family: monospace;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="container"></div>
+
+<script>
+/* -------------------------------------------------------------
+   1️⃣  Funciones auxiliares
+   ------------------------------------------------------------- */
+
+/* ¿Es n primo?  (prueba trial‑division simple, suficiente para n < ~10⁶) */
+function esPrimo(n) {
+  if (n < 2) return false;
+  if (n === 2 || n === 3) return true;
+  if (n % 2 === 0 || n % 3 === 0) return false;
+  for (let i = 5; i * i <= n; i += 6) {
+    if (n % i === 0 || n % (i + 2) === 0) return false;
+  }
+  return true;
+}
+
+/* ¿Es n un semiprimo? (= producto de exactamente dos primos, con multiplicidad) */
+function esSemiprimo(n) {
+  let factores = 0;
+  let m = n;
+
+  // prueba divisores desde 2
+  for (let p = 2; p * p <= m && factores <= 2; p++) {
+    while (m % p === 0) {
+      factores++;
+      m /= p;
+      if (factores > 2) return false; // ya tiene >2 factores
+    }
+  }
+  if (m > 1) factores++; // el resto es un primo
+
+  return factores === 2;
+}
+
+/* -------------------------------------------------------------
+   2️⃣  Generar los primeros 10 000 semiprimos
+   ------------------------------------------------------------- */
+function generarSemiprimos(cantidad) {
+  const lista = [];
+  let n = 4;                     // el primer semiprimo (2·2)
+  while (lista.length < cantidad) {
+    if (esSemiprimo(n)) lista.push(n);
+    n++;
+  }
+  return lista;
+}
+
+const semiprimos = generarSemiprimos(100 * 100);   // 10 000 valores
+
+/* -------------------------------------------------------------
+   3️⃣  Construir la tabla y añadirla al DOM
+   ------------------------------------------------------------- */
+function crearTabla(datos, filas, columnas) {
+  const tabla = document.createElement('table');
+  let idx = 0;
+
+  for (let i = 0; i < filas; i++) {
+    const tr = document.createElement('tr');
+    for (let j = 0; j < columnas; j++) {
+      const td = document.createElement('td');
+      td.textContent = datos[idx++];
+      tr.appendChild(td);
+    }
+    tabla.appendChild(tr);
+  }
+  return tabla;
+}
+
+const tabla = crearTabla(semiprimos, 100, 100);
+document.getElementById('container').appendChild(tabla);
+</script>
+
+</body>
+</html>

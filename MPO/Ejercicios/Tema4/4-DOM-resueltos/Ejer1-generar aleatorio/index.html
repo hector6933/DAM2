@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+		//Inserta un elemento aleatorio
+		function insertar(evento){
+			// Creamos el elemento LI y su texto por separado
+			nuevoHijo=document.createElement("li");
+			nodoTexto=document.createTextNode(Math.random());
+			// Unimos el texto al elemento LI
+			nuevoHijo.appendChild(nodoTexto);
+			// Añadimos el elemento LI a la UL
+			document.getElementById("miLista").appendChild(nuevoHijo);
+	
+		}
+
+		function borrar(evento){
+
+			const contenedorLista = document.getElementById('miLista');
+			const ultimoElemento = contenedorLista.lastElementChild;
+
+			if (ultimoElemento) { // Verifica que haya un último elemento
+  				contenedorLista.removeChild(ultimoElemento);
+			}
+		}
+
+		</script>
+    </head>
+    <body>
+		<ul id="miLista">
+			<li> Primer Elemento </li>
+			<li> Segundo Elemento </li>
+		</ul>
+		<input type="button" value="Insertar Aleatorio" onclick="insertar();" />
+		<input type="button" value="Eliminar Ultimo Elemento" onclick="borrar();" />		
+	</body>
+</html>
