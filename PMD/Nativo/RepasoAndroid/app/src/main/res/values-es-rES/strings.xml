@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RepasoAndroid</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="card2">Card2</string>
+    <string name="saludo">Hola, %1</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="hola_bienvenido">¡Hola, bienvenido!</string>
+    <string name="nombre">Nombre</string>
+    <string name="enviar">Enviar</string>
+    <string name="logout">Cerrar Sesión</string>
+</resources>
