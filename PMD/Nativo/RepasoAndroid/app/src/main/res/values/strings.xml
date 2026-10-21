@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RepasoAndroid</string>
+    <string name="contrase_a">Password</string>
+    <string name="saludo">Hello, %1$s</string>
+    <string name="card2">Card2</string>
+    <string name="login">Login</string>
+    <string name="hola_bienvenido">¡Hello, welcome!</string>
+    <string name="nombre">Name</string>
+    <string name="enviar">Send</string>
+    <string name="logout">Logout</string>
+</resources>
