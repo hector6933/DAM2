@@ -1,0 +1,626 @@
+[
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_circle_green.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\circle_green.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_circle_white.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\circle_white.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_banner_intro.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\banner_intro.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_banner_intro.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\banner_intro.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_green_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\green_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_outline_adb_24.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\outline_adb_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_signup_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\signup_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\layout_activity_check_quizz.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\activity_check_quizz.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_btn_5.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\btn_5.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\color_colorprimarydark.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\color\\colorprimarydark.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_facebook.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_twitter.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-hdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-hdpi\\ic_launcher_background.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_profile.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_login_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\login_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_twitter.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_circle_white_top.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\circle_white_top.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_google.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\color_colorprimary.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\color\\colorprimary.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_google.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_banner_intro.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\banner_intro.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_signup_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\signup_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_bien.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\bien.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_btn_4.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_button_background_green_1.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\button_background_green_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_btn_1.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_facebook.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\layout_activity_main_quizz.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\activity_main_quizz.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_google.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_profile.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_green_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\green_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_background.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_radio_button_fondo.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\radio_button_fondo.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_ic_launcher_perro.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\ic_launcher_perro.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_circle_white_top.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\circle_white_top.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_circle_green.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\circle_green.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_progress_bar_fondo.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\progress_bar_fondo.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_progress_bar_progreso.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\progress_bar_progreso.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_signup_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\signup_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_btn_5.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\btn_5.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_circle_white_top.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\circle_white_top.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_btn_5.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\btn_5.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_btn_5.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\btn_5.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_profile.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_green_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\green_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_circle_white.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\circle_white.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_login_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\login_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_btn_2.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_btn_2.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_twitter.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_bottom_background_light_green.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\bottom_background_light_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_btn_2.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_green_banner_background.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\green_banner_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_circle_green.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\circle_green.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_calculadora.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\calculadora.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\layout_edad_canina_activity_main.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\edad_canina_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_boton_send_fondo.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\boton_send_fondo.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_btn_5.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\btn_5.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_profile.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_circle_green.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\circle_green.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_circle_white_top.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\circle_white_top.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_green_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\green_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\layout_super_activity_detail.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\super_activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_btn_1.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_twitter.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_btn_3.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_login_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\login_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\color_coloraccent.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\color\\coloraccent.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_pregunta.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\pregunta.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_btn_3.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_banner_intro.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\banner_intro.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_green_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\green_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_signup_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\signup_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_mal.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\mal.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_circle_green.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\circle_green.png"
+    },
+    {
+        "merged": "org.iesch.p1_menudashboard.app-debug-39:/layout_activity_check_quizz.xml.flat",
+        "source": "org.iesch.p1_menudashboard.app-main-41:/layout/activity_check_quizz.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_google.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_facebook.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_btn_6.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\btn_6.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_btn_6.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\btn_6.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\layout_super_heroe_activity_main.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\super_heroe_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_circle_white_top.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\circle_white_top.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_btn_4.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_circle_green.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\circle_green.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\layout_activity_intro.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_btn_6.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\btn_6.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_green_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\green_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_sebusca.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\sebusca.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_twitter.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_btn_4.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_profile.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_circle_white_top.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\circle_white_top.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_circle_white.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\circle_white.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_google.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_button_background_green2.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\button_background_green2.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_imagenpolla.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\imagenpolla.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_camara.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\camara.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_btn_1.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_google.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\google.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xxhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xxhdpi\\ic_launcher_background.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_profile.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xhdpi\\ic_launcher_background.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_circle_white.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\circle_white.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_signup_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\signup_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_facebook.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_btn_3.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_signup_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\signup_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_login_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\login_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_facebook.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_facebook.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\facebook.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_banner_intro.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\banner_intro.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_superheroe.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\superheroe.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_perro.jpg.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\perro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxhdpi_banner_intro.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxhdpi\\banner_intro.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_twitter.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\twitter.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_white_btn_background.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\white_btn_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_btn_5.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\btn_5.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_dogoargentino.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\dogoargentino.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_circle_white.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\circle_white.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_circle_white.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\circle_white.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-ldpi_btn_6.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-ldpi\\btn_6.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xhdpi_login_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xhdpi\\login_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-mdpi_btn_6.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-mdpi\\btn_6.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_login_banner.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\login_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-hdpi_btn_6.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-hdpi\\btn_6.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\drawable-xxxhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\drawable-xxxhdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-debug-39:\\mipmap-mdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\mipmap-mdpi\\ic_launcher_background.webp"
+    }
+]

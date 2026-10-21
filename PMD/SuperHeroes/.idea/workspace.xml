@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml">
+        <config>
+          <theme>@style/Theme.SuperHeroes</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml">
+        <config>
+          <theme>@style/Theme.SuperHeroes</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_detail.xml">
+        <config>
+          <theme>@style/Theme.SuperHeroes</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.SuperHeroes</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/xml/provider_paths.xml">
+        <config>
+          <theme>@style/Theme.SuperHeroes</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82bc0c6c-7171-40bf-94fc-02e12385ee9e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer1-generar aleatorio/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer2-Generar tabla y remarcar numero primos/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer2-Generar tabla y remarcar numero primos/ejer2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer2-Generar tabla y remarcar numero primos/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer3-Crear Marcar y borrar/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer3-Crear Marcar y borrar/ejer3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer3-Crear Marcar y borrar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer4-Mostrar ocultar/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer4-Mostrar ocultar/ejer4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer4-Mostrar ocultar/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer5-Mostrar posicion mouse/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer5-Mostrar posicion mouse/ejer5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer5-Mostrar posicion mouse/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer6-Mostrar alert/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer6-Mostrar alert/ejer6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer6-Mostrar alert/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer7-DNI/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer7-DNI/ejer7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer7-DNI/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer8-Cambiar FondoDobleClick/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer8-Cambiar FondoDobleClick/ejer8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer8-Cambiar FondoDobleClick/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer9-Papelera/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer9-Papelera/bola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer9-Papelera/ejer9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer9-Papelera/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer9-Papelera/papeleraLLena.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/Ejer9-Papelera/papeleraVacia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/ejercicio9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/imgEjercicio9/.syncmetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/imgEjercicio9/bola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/imgEjercicio9/papeleraLLena.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/imgEjercicio9/papeleraVacia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/4-DOM-resueltos/ejercicios_4_1/scriptEjes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej2-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej2-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/papeleraLlena.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/papeleraVacia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MPO/cosas/prueba7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/.claude/agents/claude.agent.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/.metadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/analysis_options.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/kotlin/com/example/componentes/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/drawable-v21/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/values-night/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/android/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/lib/presentation/screens/listview_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/pubspec.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/pubspec.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flutter/componentes/test/widget_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej1.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej9.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../MPO/Ejercicios/Tema4/Ej9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flutter/p1_contador/lib/presentation/screens/contador-screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../Flutter/p1_contador/lib/presentation/screens/contador-screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flutter/p1_contador/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Flutter/p1_contador/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flutter/p1_contador/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flutter/p1_contador/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[LocalEmulator::path=C:\Users\dam2\.android\avd\Andres.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="_Designer_Tab" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JSnnUsGa5jx1ZsV5CTpyPJlztb" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="android.template.-272223460">
+      <recent name="org.iesch.superheroes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="SuperHeroes.app" />
+      <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="ALLOW_ASSUME_VERIFIED" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="RESTORE_FRESH_INSTALL_ONLY" value="false" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Trace" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82bc0c6c-7171-40bf-94fc-02e12385ee9e" name="Changes" comment="" />
+      <created>1789663503264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789663503264</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="org.iesch.superheroes">
+          <value>
+            <CheckInfo lastCheckTimestamp="1790700447875" />
+          </value>
+        </entry>
+        <entry key="org.iesch.superheroes.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1790700447875" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

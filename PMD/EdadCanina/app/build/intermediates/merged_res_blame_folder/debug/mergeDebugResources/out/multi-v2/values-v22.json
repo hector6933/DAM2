@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.iesch.edadcanina.app-mergeDebugResources-38:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dam2\\.gradle\\caches\\9.6.0\\transforms\\35483ffcb48c62a2b50a76e09c709934\\transformed\\appcompat-1.8.0\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}

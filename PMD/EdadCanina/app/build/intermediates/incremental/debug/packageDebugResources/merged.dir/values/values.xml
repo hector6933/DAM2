@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Rojado">#E91E63</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Edad Canina</string>
+    <string name="calcular">Calcular</string>
+    <string name="introduce_tu_edad">Introduce tu edad</string>
+    <string name="qu_edad_tienes">¿Qué edad tienes?</string>
+    <style name="Base.Theme.EdadCanina" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.EdadCanina" parent="Base.Theme.EdadCanina"/>
+</resources>

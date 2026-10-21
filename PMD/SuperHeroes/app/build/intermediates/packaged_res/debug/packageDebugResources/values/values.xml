@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amarillo">#F3FF00</color>
+    <color name="black">#FF000000</color>
+    <color name="gris">#3C3A3A</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SuperHeroes</string>
+    <style name="Base.Theme.SuperHeroes" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.SuperHeroes" parent="Base.Theme.SuperHeroes"/>
+</resources>

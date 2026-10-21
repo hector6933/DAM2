@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.iesch.superheroes.app-mergeDebugResources-38:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dam2\\.gradle\\caches\\9.6.0\\transforms\\3739ac272d78cfec90dab50b5e005d3e\\transformed\\appcompat-1.8.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
