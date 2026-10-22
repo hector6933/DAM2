@@ -1,0 +1,25 @@
+org.iesch.edadcanina
+color Rojado
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_launcher_perro
+drawable perro
+id boton_calcular
+id edit_edad
+id main
+id texto_pregunta
+id texto_respuesta
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+string calcular
+string introduce_tu_edad
+string qu_edad_tienes
+style Base_Theme_EdadCanina
+style Theme_EdadCanina
+xml backup_rules
+xml data_extraction_rules

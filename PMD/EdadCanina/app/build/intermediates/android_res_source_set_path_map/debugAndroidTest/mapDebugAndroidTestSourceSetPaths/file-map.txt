@@ -1,0 +1,5 @@
+org.iesch.edadcanina.test.app-updated_navigation_xml-0 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\generated\updated_navigation_xml\debugAndroidTest
+org.iesch.edadcanina.test.app-packageDebugAndroidTestResources-1 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\merged.dir
+org.iesch.edadcanina.test.app-packageDebugAndroidTestResources-2 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\intermediates\incremental\debugAndroidTest\packageDebugAndroidTestResources\stripped.dir
+org.iesch.edadcanina.test.app-debugAndroidTest-3 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+gradleHome-0 C:\Users\dam2\.gradle

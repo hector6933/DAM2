@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable imagenpolla
+drawable outline_adb_24
+id cardEdadCanina
+id cardSuperheroes
+id constraintLayout
+id imageView
+id imgEdadCanina
+id main
+id textView2
+id textViewEdadCanina
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.DashBoard
+style CircularImageView
+style Theme.DashBoard
+xml backup_rules
+xml data_extraction_rules

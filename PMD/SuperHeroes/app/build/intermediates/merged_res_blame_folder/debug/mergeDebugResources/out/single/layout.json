@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.superheroes.app-mergeDebugResources-39:\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.superheroes.app-main-42:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "org.iesch.superheroes.app-mergeDebugResources-39:/layout/activity_detail.xml",
+        "source": "org.iesch.superheroes.app-main-42:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.superheroes.app-mergeDebugResources-39:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.superheroes.app-main-42:\\layout\\activity_main.xml"
+    }
+]

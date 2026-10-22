@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.iesch.p1_menudashboard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="37" />
+9-->INJECTED
+10
+11    <permission
+11-->[androidx.core:core:1.19.1] C:\Users\dam2\.gradle\caches\9.6.0\transforms\d0c48d0e2fba6eacae815069b2a41e63\transformed\core-1.19.1\AndroidManifest.xml:22:5-24:47
+12        android:name="org.iesch.p1_menudashboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.19.1] C:\Users\dam2\.gradle\caches\9.6.0\transforms\d0c48d0e2fba6eacae815069b2a41e63\transformed\core-1.19.1\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.19.1] C:\Users\dam2\.gradle\caches\9.6.0\transforms\d0c48d0e2fba6eacae815069b2a41e63\transformed\core-1.19.1\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="org.iesch.p1_menudashboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.19.1] C:\Users\dam2\.gradle\caches\9.6.0\transforms\d0c48d0e2fba6eacae815069b2a41e63\transformed\core-1.19.1\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.19.1] C:\Users\dam2\.gradle\caches\9.6.0\transforms\d0c48d0e2fba6eacae815069b2a41e63\transformed\core-1.19.1\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:5:5-60:19
+18        android:allowBackup="true"
+18-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.19.1] C:\Users\dam2\.gradle\caches\9.6.0\transforms\d0c48d0e2fba6eacae815069b2a41e63\transformed\core-1.19.1\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+22-->INJECTED
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.P1MenuDashboard" >
+29-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:13:9-53
+30        <activity
+30-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:14:9-23:20
+31            android:name="org.iesch.p1_menudashboard.IntroActivity"
+31-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:15:13-42
+32            android:exported="true"
+32-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:16:13-36
+33            android:windowSoftInputMode="adjustResize" >
+33-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:17:13-55
+34            <intent-filter>
+34-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:18:13-22:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:19:17-69
+35-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:19:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:21:17-77
+37-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:21:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:24:9-27:58
+41            android:name="org.iesch.p1_menudashboard.MainActivity"
+41-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:25:13-41
+42            android:exported="false"
+42-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:26:13-37
+43            android:windowSoftInputMode="adjustResize" />
+43-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:27:13-55
+44        <activity
+44-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:28:9-31:58
+45            android:name="org.iesch.p1_menudashboard.EdadCaninaMainActivity"
+45-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:29:13-51
+46            android:exported="false"
+46-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:30:13-37
+47            android:windowSoftInputMode="adjustResize" />
+47-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:31:13-55
+48        <activity
+48-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:32:9-35:58
+49            android:name="org.iesch.p1_menudashboard.SuperHeroeMainActivity"
+49-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:33:13-51
+50            android:exported="false"
+50-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:34:13-37
+51            android:windowSoftInputMode="adjustResize" />
+51-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:35:13-55
+52
+53        <provider
+53-->INJECTED
+54            android:name="androidx.core.content.FileProvider"
+54-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:38:13-62
+55            android:authorities="org.iesch.p1_menudashboard.provider"
+55-->INJECTED
+56            android:exported="false"
+56-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:40:13-37
+57            android:grantUriPermissions="true"
+57-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:41:13-47
+58            android:windowSoftInputMode="adjustResize" >
+58-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:42:13-55
+59            <meta-data
+59-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:43:13-45:58
+60                android:name="android.support.FILE_PROVIDER_PATHS"
+60-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:44:17-67
+61                android:resource="@xml/provider_paths" />
+61-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:45:17-55
+62        </provider>
+63
+64        <activity
+64-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:48:9-51:58
+65            android:name="org.iesch.p1_menudashboard.SuperDetailActivity"
+65-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:49:13-48
+66            android:exported="false"
+66-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:50:13-37
+67            android:windowSoftInputMode="adjustResize" />
+67-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:51:13-55
+68        <activity
+68-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:52:9-55:58
+69            android:name="org.iesch.p1_menudashboard.CheckQuizz"
+69-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:53:13-39
+70            android:exported="false"
+70-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:54:13-37
+71            android:windowSoftInputMode="adjustResize" />
+71-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:55:13-55
+72        <activity
+72-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:56:9-59:58
+73            android:name="org.iesch.p1_menudashboard.MainQuizz"
+73-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:57:13-38
+74            android:exported="false"
+74-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:58:13-37
+75            android:windowSoftInputMode="adjustResize" />
+75-->C:\Users\dam2\Desktop\DAM2\PMD\P1MenuDashboard\app\src\main\AndroidManifest.xml:59:13-55
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\763de96c7fabb5c725bbbe5b06e89014\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\763de96c7fabb5c725bbbe5b06e89014\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+79            android:authorities="org.iesch.p1_menudashboard.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\763de96c7fabb5c725bbbe5b06e89014\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\763de96c7fabb5c725bbbe5b06e89014\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\763de96c7fabb5c725bbbe5b06e89014\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\763de96c7fabb5c725bbbe5b06e89014\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.3.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\763de96c7fabb5c725bbbe5b06e89014\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\6d020892fdbbb13ea9f0b63a9dd39849\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\6d020892fdbbb13ea9f0b63a9dd39849\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.10.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\6d020892fdbbb13ea9f0b63a9dd39849\transformed\lifecycle-process-2.10.0\AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\dam2\.gradle\caches\9.6.0\transforms\dd82b4627e7ba011848d7a6a12eff608\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-mergeDebugResources-38:\\layout\\edad_canina_activity_main.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\edad_canina_activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-mergeDebugResources-38:\\layout\\activity_main_quizz.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\activity_main_quizz.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-mergeDebugResources-38:\\layout\\super_activity_detail.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\super_activity_detail.xml"
+    },
+    {
+        "merged": "org.iesch.p1_menudashboard.app-mergeDebugResources-38:/layout/activity_check_quizz.xml",
+        "source": "org.iesch.p1_menudashboard.app-main-41:/layout/activity_check_quizz.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-mergeDebugResources-38:\\layout\\activity_check_quizz.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\activity_check_quizz.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-mergeDebugResources-38:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-mergeDebugResources-38:\\layout\\activity_intro.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\activity_intro.xml"
+    },
+    {
+        "merged": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-mergeDebugResources-38:\\layout\\super_heroe_activity_main.xml",
+        "source": "C:\\Users\\dam2\\.gradle\\daemon\\9.6.0\\org.iesch.p1_menudashboard.app-main-41:\\layout\\super_heroe_activity_main.xml"
+    }
+]

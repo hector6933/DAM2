@@ -1,0 +1,8 @@
+org.iesch.edadcanina.app-pngs-0 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\generated\res\pngs\debug
+org.iesch.edadcanina.app-updated_navigation_xml-1 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\generated\updated_navigation_xml\debug
+org.iesch.edadcanina.app-packageDebugResources-2 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+org.iesch.edadcanina.app-packageDebugResources-3 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+org.iesch.edadcanina.app-debug-4 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\build\intermediates\merged_res\debug\mergeDebugResources
+org.iesch.edadcanina.app-debug-5 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\src\debug\res
+org.iesch.edadcanina.app-main-6 C:\Users\dam2\Desktop\DAM2\PMD\EdadCanina\app\src\main\res
+gradleHome-0 C:\Users\dam2\.gradle

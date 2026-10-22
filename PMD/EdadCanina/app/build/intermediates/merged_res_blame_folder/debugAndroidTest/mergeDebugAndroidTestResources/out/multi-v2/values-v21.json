@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.iesch.edadcanina.test.app-mergeDebugAndroidTestResources-2:/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dam2\\.gradle\\caches\\9.6.0\\transforms\\74afbbf1c6ea7857a682d46abb8a8f0b\\transformed\\core-1.7.0\\res\\values-v21\\values.xml",
+                    "from": {
+                        "startLines": "4,13",
+                        "startColumns": "0,0",
+                        "startOffsets": "146,621",
+                        "endLines": "12,21",
+                        "endColumns": "8,8",
+                        "endOffsets": "620,1093"
+                    },
+                    "to": {
+                        "startLines": "2,11",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,534",
+                        "endLines": "10,19",
+                        "endColumns": "8,8",
+                        "endOffsets": "529,1006"
+                    }
+                }
+            ]
+        }
+    ]
+}

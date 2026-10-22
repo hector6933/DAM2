@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.iesch.lifecycle.app-mergeDebugResources-37:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\dam2\\.gradle\\caches\\9.6.0\\transforms\\282509cb42ab58175c4f7f8bf1a54451\\transformed\\appcompat-1.8.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

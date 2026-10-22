@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Rojado">#E91E63</color>
+    <color name="amarillo">#F3FF00</color>
+    <color name="black">#FF000000</color>
+    <color name="gris">#3C3A3A</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">P1-MenuDashboard</string>
+    <string name="calcular">Calculate</string>
+    <string name="introduce_tu_edad">Enter your age</string>
+    <string name="perro">Dog</string>
+    <string name="qu_edad_tienes">what is your age?</string>
+    <string name="texto_respuesta">If you were a dog you would be %d years old</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorprimary</item>
+        <item name="colorPrimaryDark">@color/colorprimarydark</item>
+        <item name="colorAccent">@color/coloraccent</item>
+    </style>
+    <style name="Base.Theme.P1MenuDashboard" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.P1MenuDashboard" parent="Base.Theme.P1MenuDashboard"/>
+</resources>
