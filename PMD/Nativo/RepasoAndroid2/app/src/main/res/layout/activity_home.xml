@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:background="@color/colorMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imagenPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:shapeAppearanceOverlay="@style/ImagenRedondeada"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textoSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludo"
+        tools:text="Hola Héctor"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imagenPerfil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imagenPerfil"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:padding="20dp"
+        app:columnCount="3"
+        app:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagenPerfil"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/colorMain"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="20dp"
+            app:layout_columnWeight="1"
+            app:layout_rowSpan="2"
+            app:layout_rowWeight="1"
+            >
+
+            <TextView
+                android:id="@+id/textoCard1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Card1"
+                android:textColor="@color/white"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="15sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeStepGranularity="1sp"
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/colorMain"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="20dp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            >
+
+            <TextView
+                android:id="@+id/textoCard2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Card2"
+                android:textColor="@color/white"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="15sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeStepGranularity="1sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card3"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/colorMain"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="20dp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            >
+
+            <TextView
+                android:id="@+id/textoCard3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Card3"
+                android:textColor="@color/white"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="15sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeStepGranularity="1sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card4"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/colorMain"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="20dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_rowSpan="2"
+            app:layout_columnSpan="2"
+            app:layout_gravity="fill"
+            >
+
+            <TextView
+                android:id="@+id/textoCard4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Card4"
+                android:textColor="@color/white"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="15sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeStepGranularity="1sp"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card5"
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/colorMain"
+            app:cardCornerRadius="15dp"
+            app:contentPadding="20dp"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill"
+            >
+
+            <TextView
+                android:id="@+id/textoCard5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Card5"
+                android:textColor="@color/white"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="15sp"
+                app:autoSizeMaxTextSize="20sp"
+                app:autoSizeStepGranularity="1sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:backgroundTint="@color/colorMain"
+            app:layout_columnWeight="1"
+            android:layout_marginTop="50dp"
+            app:layout_columnSpan="3"
+            android:textColor="@color/white"
+            app:layout_gravity="fill_horizontal"
+            />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

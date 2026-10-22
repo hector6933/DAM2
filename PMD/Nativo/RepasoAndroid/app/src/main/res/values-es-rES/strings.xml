@@ -3,7 +3,7 @@
     <string name="app_name">RepasoAndroid</string>
     <string name="contrase_a">Contraseña</string>
     <string name="card2">Card2</string>
-    <string name="saludo">Hola, %1</string>
+    <string name="saludo">Hola, %1$s</string>
     <string name="login">Iniciar Sesión</string>
     <string name="hola_bienvenido">¡Hola, bienvenido!</string>
     <string name="nombre">Nombre</string>

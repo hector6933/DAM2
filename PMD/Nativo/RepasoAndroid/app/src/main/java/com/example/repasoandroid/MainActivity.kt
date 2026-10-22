@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        val getContent = registerForActivityResult(ActivityResultContracts.TakePicturePreview()) {bitmap ->
+        val getContent = registerForActivityResult(ActivityResultContracts.TakePicturePreview()) { bitmap ->
 
             if (bitmap != null) {
 

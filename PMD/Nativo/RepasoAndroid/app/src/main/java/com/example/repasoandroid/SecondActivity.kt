@@ -35,7 +35,7 @@ class SecondActivity : AppCompatActivity() {
 
         } else {
 
-            binding.textNombre.text = nombre
+            binding.textNombre.text = getString(R.string.saludo, nombre)
 
         }
 
